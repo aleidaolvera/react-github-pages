@@ -1,0 +1,255 @@
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Martel', Times New Roman, Times, serif;
+  font-weight: 900;
+}
+h4 {
+  font-family: 'Martel Sans';
+}
+
+h1 {
+  font-size: 3.69em;
+}
+
+h2 {
+  font-size: 2.25em;
+  margin-bottom: -5px;
+}
+
+h3 {
+  font-size: 1.7em;
+  text-transform: uppercase;
+}
+
+.header {
+  background-color: #add8e6;
+  padding-bottom: 50px;
+}
+
+.yellow {
+  margin-top: -25px;
+}
+
+hr.fix {
+  margin-left: auto;
+}
+
+p.fix {
+  margin-left: 40px;
+}
+
+.light hr {
+  margin-top: 20px;
+  width: 50px;
+  border-top: solid 5px #5190A5 !important;
+}
+
+section {
+  padding: 25px 0;
+}
+
+.light {
+  /* padding: 10px 0; */
+  background-color: #add8e6;
+  /*border: solid 1px MidnightBlue;*/
+}
+
+
+/* SCHEDULE CSS */
+.schedule {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 20px 0;
+}
+
+.light h1,h2,h3,h4,h5,h6 {
+  color: #021F28;
+}
+.schedule h3 {
+  text-align: center;
+}
+
+.schedule h3::after {
+  content: "....";
+  margin-top: -5px;
+  font-size: 1.25em;
+  color: #5190A5;
+  display: block;
+
+}
+.schedule hr {
+  width: 35px;
+  border-top: solid 5px SeaShell !important;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+   /* background-color: SeaShell; // Choose your own color here */
+ }
+ /* .table-striped>thead {
+   background-color: SeaShell;
+ } */
+.table {
+  background-color: #fff;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+.navbar-brand {
+  text-shadow: none;
+}
+.navbar-right {
+  margin-right: 10px;
+
+}
+
+.hvrcenter {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.hvrcenter:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background-color:MidnightBlue ;
+  /* #ECF0F1; */
+  height: 2px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvrcenter:hover:before, .hvrcenter:focus:before, .hvrcenter:active:before {
+  left: 0;
+  right: 0;
+}
+.navbar-default {
+  font-weight: bold;
+  font-size: 1.25em;
+
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+  color: midnightblue;
+}
+
+.navbar-default .navbar-nav > li > a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.lead {
+  font-weight: 400;
+  font-size: 1.25em;
+}
+
+.sponsors img {
+  padding: 25px;
+  height: 135px;
+  flex: auto;
+  width: auto;
+}
+
+section h2 {
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+
+
+footer .logo{
+    margin-top: 10px;
+}
+
+footer .bar .logo a{
+    color:white;
+    font-size: 28px;
+    float: left;
+    font-weight: bold;
+    line-height: 68px;
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+footer .bar {
+    text-align: center;
+    background-color: #33373e;
+    text-align: center;
+}
+
+footer .bar a {
+    font-size: 22px;
+    color: #9fa3a9;
+    padding: 10px;
+    transition: 0.2s;
+    line-height: 68px;
+}
+
+footer .bar a:hover {
+    text-decoration: none;
+}
+
+footer .social-icons {
+    float:right;
+}
+
+
+footer .facebook:hover {
+    color: #0077e2;
+}
+
+footer .google:hover {
+    color: #ef1a1a;
+}
+
+footer .twitter:hover {
+    color: #00aced;
+}
+
+@media screen and (max-width: 767px) {
+    footer {
+        text-align: center;
+    }
+
+    footer .info{
+        text-align: center;
+    }
+}
+
+img[data-action="zoom"] {
+    cursor: pointer;
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+
+}
+
+.spacer {
+  margin: 25px;
+}

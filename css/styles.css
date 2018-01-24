@@ -1,0 +1,344 @@
+@import 'https://fonts.googleapis.com/css?family=Inconsolata:700|Roboto+Slab:300';
+
+body {
+    font-family: 'Roboto Slab', sans-serif;
+    text-align: center;
+    color: rgb(42,42,42);
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Inconsolata', sans-serif;
+}
+
+h1.hoyahacks {
+    word-spacing: -10px;
+	background-color: #7FDBFF
+}
+
+body {
+    font-size: 18px;
+}
+
+.contents-container h1 {
+    font-size: 45px;
+}
+
+img {
+    max-height: 100%;
+}
+
+.logo-holder {
+    padding: 12em 0 0;
+}
+
+.fixed-left {
+    position: fixed;
+}
+
+.logo-holder img {
+    max-width: 96%;
+    width: 1000px;
+}
+
+.btn {
+    -webkit-appearance: none;
+    text-transform: uppercase;
+    background: #47adaa;
+    color: #fff;
+}
+
+.dates {
+    font-size: 4em;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+    color: #7FDBFF;
+}
+
+#messages {
+    min-height: 1.4em;
+    font-size: 2em;
+}
+
+.questions {
+    display: inline-block;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+.bulldog-tease {
+    display: inline-block;
+}
+
+.contact-email {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.contact-email:hover {
+    color: #fff;
+}
+
+/* LAYOUT */
+.left {
+    height: 100%;
+    width: 30%;
+	background-color: #031527;
+	/*background-image: url("../img/color-bg-dark.jpg");*//*Old Background*/
+	
+	/*background-image: url("../img/Background2018.png");*/
+    color: #7FDBFF;
+    border-right: 5px solid #7FDBFF;
+	
+	
+}
+
+.right {
+    float: left;
+    margin-left: 30%;
+    width:70%;
+    float: right;
+    background: #FAFAFA;
+    color: #0074D9;
+    padding: 10em 0 10em;
+    text-align: left;
+    max-width: 70%;
+}
+
+.top {
+    min-height: 100vh;
+}
+
+/* CONTENTS */
+.nav-left {
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+}
+
+.nav-left li {
+    margin-bottom: 5px;
+}
+
+.nav-left a {
+    color: #7FDBFF;
+}
+
+.centered-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.contents-container {
+    width: 40em;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.section a {
+    color: ;
+}
+
+.contents-container h1.attention {
+    font-size: 60px;
+    margin-bottom: 75px;
+}
+
+/* PEOPLE */
+div.people {
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+h2.name {
+    text-align: center;
+    margin-top: 10px;
+}
+
+img.photo {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+	border-radius: 50%;
+    /*border-radius: 2px;*/
+    border: 2px solid #001f3f;
+}
+
+/* SPONSORS */
+.sponsors .col-sm-4 {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+img.sponsorphoto {
+	margin-top: 25px;
+	margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+	display: inline-block;
+}
+
+/* SCHEDULE */
+
+.schedule {
+	width: 100%;
+	font-size: 1.2em;
+}
+
+.time {
+	color: #337ab7;
+	text-align: left;
+}
+
+.schedule-day {
+	padding-top: 15px;
+	text-align: center;
+}
+
+.schedule-item {
+	text-align: right;
+}
+
+/* INPUT */
+input {
+    font-size: 16px;
+    outline: none;
+}
+
+input.email {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #FAFAFA;
+    border-radius: 2px;
+    background: transparent;
+    color: #FAFAFA;
+    transition: 0.3s ease;
+}
+
+/* Generalize out? */
+.email:focus {
+    border-color: #7FDBFF;
+}
+
+.email:focus + input.button {
+    border-color: #7FDBFF;
+    color: #7FDBFF;
+}
+
+input.button.signup {
+    padding: 12px 25px;
+    background: transparent;
+    border: 2px solid #FAFAFA;
+    border-radius: 2px;
+    color: #FAFAFA;
+    /* Hover */
+    cursor: pointer;
+    text-transform: lowercase;
+    transition: 0.3s ease;
+}
+input.button.signup:hover {
+    color: #001f3f;
+    border-color: #7FDBFF;
+    background-color: #7FDBFF;
+}
+/* Irritating. */
+#mc-embedded-subscribe {
+    width: 100%;
+    margin: -2px auto 0px auto;
+}
+
+.signup-container {
+    margin: 20px 0 20px;
+    text-align: center;
+}
+
+.signup-button-container {
+	margin: 20px 0 20px;
+	padding: 10px;
+	background-color: #7FDBFF;
+	text-align: center;
+}
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 1250px) {
+    .dates {
+        font-size: 2.5em;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .dates {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .left {
+        width: inherit;
+        /*background-color: #001f3f;*/
+		/*background-image: url("../img/color-bg-dark.jpg");*/
+	    	background-image: url("../img/Background2018.png");
+        border: none;
+    }
+    .top {
+        border-bottom: 5px solid #7FDBFF;
+    }
+    .right {
+        width: 100%;
+        max-width: 100%;
+        float: inherit;
+        margin: 0;
+    }
+    .affix {
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 767px){
+    div.people {
+        margin-top: 0px;
+    }
+    .col-sm-4 {
+        margin-top: 20px;
+		display: table-cell;
+		vertical-align: middle;
+    }
+    .contact-us {
+        margin-top: 6em;
+    }
+    .logo-holder {
+        padding-top: 8em;
+    }
+    body {
+        font-size: 17px;
+    }
+    .contents-container h1.attention {
+        font-size: 45px;
+    }
+}
+
+@media only screen and (max-width : 520px){
+    .contents-container {
+        max-width: 80%;
+    }
+    body {
+        font-size: 16px;
+    }
+}
+
+/* MODIFIERS */
+.light-text {
+    color: #0074D9;
+}
+.dark-text {
+    color: #001f3f;
+}
