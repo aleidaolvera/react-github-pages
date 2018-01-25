@@ -445,6 +445,10 @@ img[data-action="zoom"] {
   height: auto;
 }
 
+.fix-fab {
+  margin-top: -.8em;
+}
+
 
 .track .row {
   padding: 10px 0;
