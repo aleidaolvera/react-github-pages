@@ -50,16 +50,12 @@ section {
   color: #fff;
   background-color: #33373e;
 }
-.dark h2 {
-  color: #fff;
-}
-
-.dark h3 {
+.dark h2,h3,h4,h5,h6 {
   color: #fff;
 }
 .light {
   /* padding: 10px 0; */
-  background-color: #add8e6;
+  background-color: #CCE9F4;
   /*border: solid 1px MidnightBlue;*/
 }
 .light h2 {
@@ -67,7 +63,7 @@ section {
 }
 /* SCHEDULE CSS */
 
-.light h1,h2,h3,h4,h5,h6 {
+.light h1,.light h2,.light h3,.light h4,.light h5, .light h6 {
   color: #021F28;
 }
 
@@ -111,7 +107,7 @@ h3.schedule::after {
   /* margin-top: 20px; */
 }
 
-.light p {
+.light p, .dark p {
   font-size: 1.35em;
   /* font-weight: bold; */
 }
@@ -302,7 +298,7 @@ img[data-action="zoom"] {
 .header-nightsky {
     color: white;
     /* background: url("img/nightsky.jpg") no-repeat; */
-    background-color: #012531;
+    background-color: #33373e;
     background-size: cover;
     background-position: bottom;
     padding-bottom: 50px;
@@ -411,7 +407,9 @@ img[data-action="zoom"] {
 }
 
 @media screen and (max-width: 767px) {
-
+    h3.schedule {
+      text-align: center;
+    }
     .header-nightsky .navbar-default .navbar-nav .open .dropdown-menu>li>a{
         color: #fff;
         font-size: 16px;
@@ -439,4 +437,14 @@ img[data-action="zoom"] {
 .brand-logo {
   width: 150px;
   height: auto;
+}
+
+
+.track img {
+  width: 100%;
+  height: auto;
+}
+
+.track .row {
+  padding: 10px 0;
 }
