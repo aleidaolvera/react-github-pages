@@ -250,6 +250,12 @@ footer .twitter:hover {
 }
 
 @media screen and (max-width: 767px) {
+    /* .panel-title a::before {
+      content: none;
+    } */
+    /* .panel-title a {
+      text-align: center;
+    } */
     footer {
         text-align: center;
     }
@@ -453,8 +459,9 @@ img[data-action="zoom"] {
   margin-top: 0px;
 }
 
-.panel-title {
+h2.panel-title {
   font-size: 1.5em;
+  color: #fff;
 }
 
 .panel{
@@ -486,33 +493,35 @@ a.accordion-toggle:hover {
   background-color: #1C2025;
 }
 .panel-title {
-  text-align: left;
-  padding: 0 2.5em;
+  text-align: center;
+  /* padding: 0 2.5em; */
 }
 
 .panel-body p {
   padding: 0 3em;
 }
 
-.panel-title a::before {
+/* .panel-title a::before {
 	content: ">";
 	display: inline-block;
 	/* font-family: themify; */
-	/* font-size: 12px; */
+	/* font-size: 12px; *
   margin-top: -12px;
 	margin-right: 20px;
 	margin-left: -33px;
 	/* -webkit-transition: .2s linear;
-	transition: .2s linear; */
-}
+	transition: .2s linear; *
+} */
 
 .track img {
   width: 100%;
   height: auto;
 }
 
+.track h3.fix {
+  padding-bottom: 15px;
+}
 .track h3 {
-  /* margin-top: 15px; */
   text-align: center;
 }
 
@@ -536,4 +545,23 @@ a.accordion-toggle:hover {
 .row table {
   margin: 0;
 
+}
+
+.blockquote-footer {
+  margin-bottom: 20px;
+}
+
+.md-textarea {
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #bdbdbd;
+	border-radius: 0;
+	outline: 0;
+	height: 2.1rem;
+	width: 100%;
+	font-size: 1rem;
+	box-shadow: none;
+	box-sizing: content-box;
+	-webkit-transition: all .3s;
+	transition: all .3s;
 }
