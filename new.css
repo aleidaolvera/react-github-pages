@@ -107,7 +107,7 @@ h3.schedule::after {
   /* margin-top: 20px; */
 }
 
-.light p, .dark p {
+.light p, .dark p, p {
   font-size: 1.35em;
   /* font-weight: bold; */
 }
@@ -440,11 +440,35 @@ img[data-action="zoom"] {
 }
 
 
+.track .row {
+  padding: 10px 0;
+}
+
+.panel-heading {
+  margin-bottom: 5px;
+}
+
+.panel-default, .panel-group .panel-heading + .panel-collapse > .panel-body {
+  border: none;
+  margin-top: 0px;
+}
+
+.panel-title {
+  font-size: 1.5em;
+}
+
+
+
 .track img {
   width: 100%;
   height: auto;
 }
 
-.track .row {
-  padding: 10px 0;
+.track h3 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.track .blockquote-footer {
+  text-align: center;
 }
