@@ -569,3 +569,20 @@ a.accordion-toggle:hover {
 	-webkit-transition: all .3s;
 	transition: all .3s;
 }
+
+.btn-primary {
+  background-color: #5190A5;
+  padding: 10px 15px;
+  font-size: 1.25em;
+}
+
+.btn-primary:hover {
+  opacity: 0.75;
+
+}
+
+.email {
+  height: 50px;
+  padding: 10px 15px;
+  font-size: 1.25em;
+}
