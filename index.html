@@ -18,16 +18,22 @@
 
 
   <title>Hoya Hacks (Spring 2018)</title>
-  <!-- Bootstrap -->
+    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Martel:900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Martel+Sans:900" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <link href="./new.css" rel="stylesheet">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="new.css" rel="stylesheet">
 </head>
 
-<body> <!-- Add your content of header -->
+<body>
+  <!-- Add your content of header -->
   <!--header>
     <nav class="navbar navbar-default" style="background-color: lightblue;">
       <div class="container">
@@ -53,19 +59,17 @@
   <div class="header-nightsky">
       <nav class="navbar navbar-default">
           <div class="container">
-              <a class="navbar-brand" href="#">LOGO</a>
+              <a class="navbar-brand" href="index.html"><img src="img/logoDog.png"/></a>
               <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
-                  </button>
+                  </button> -->
               </div>
               <div class="collapse navbar-collapse" id="myNavbar">
                   <ul class="nav navbar-nav navbar-right">
-                      <li><a href="#">HOME</a></li>
-                      <li><a href="#">FAQ</a></li>
-                      <li><a href="#">SPONSORSHIP</a></li>
+
                       <!-- <li class="dropdown">
                           <a class="dropdown-toggle" data-toggle="dropdown" href="#">NEWS <span class="caret"></span></a>
                           <ul class="dropdown-menu">
@@ -96,8 +100,8 @@
       </nav>
       <div class="hero">
           <h1>Hoya Hacks 2018</h1>
-          <p><small>Washington, D.C.<br> Jan. 26 - 28, 2018.</small></p>
-          <p class="lead">Applications are now closed, but you can join the waitlist below.</p>
+          <p style="color: white;">Washington, D.C.<br>Jan. 26 - 28, 2018.</p><br>
+          <p>Applications are now closed, but you can join the waitlist below.</p>
           <a href="https://hoyahacks.typeform.com/to/XQthNU" class="btn btn-primary">Waitlist</a>
       </div>
   </div>
@@ -117,18 +121,17 @@
     </div>
   </section> -->
 
-
+<!-- schedule of events -->
 <section class="light">
-  <h2 class="container">Schedule of Events</h2>
-    <div class="schedule container-fluid">
-        <!-- <div class="schedule"> -->
-        <!-- <div class="col-sm-1 hidden-xs"></div> -->
+  <h2>Schedule of Events</h2><hr>
+    <div class="container">
+      <div class="row">
           <div class="col-sm-4">
-            <h3>Friday, Jan 26</h3>
-            <table class="table table-borderless">
+            <h3 class="schedule">Friday, Jan 26</h3>
+            <table class="table table-borderless row">
                 <thead class="thead-light">
-                  <th class="col-md-2">Time</th>
-                  <th class="col-md-5">Event Name</th>
+                  <th class="col-md-3">Time</th>
+                  <th class="col-md-4">Event Name</th>
                   <th class="col-md-5">Location</th>
                 </thead>
                 <tbody>
@@ -138,32 +141,32 @@
                   <td>McDonough Arena</td>
                 </tr>
                 <tr>
-                  <th>7:00pm</th>
+                  <td>7:00pm</th>
                   <td>Kickoff</td>
                   <td>McDonough Arena</td>
                 </tr>
                 <tr>
-                  <th>8:00pm</th>
+                  <td>8:00pm</td>
                   <td>Team Formation</td>
                   <td>Great Room</td>
                 </tr>
                 <tr>
-                  <th>9:00pm</th>
+                  <td>9:00pm</td>
                   <td>Dinner</td>
                   <td>Herman Room</td>
                 </tr>
                 <tr>
-                  <th>10:00pm</th>
+                  <td>10:00pm</td>
                   <td>Intro to Coding</td>
                   <td>Social Room</td>
                 </tr>
                 <tr>
-                  <th>11:00pm</th>
+                  <td>11:00pm</td>
                   <td>Landing Pages</td>
                   <td>Social Room</td>
                 </tr>
                 <tr>
-                  <th>12:00am</th>
+                  <td>12:00am</td>
                   <td>Midnight Snacks</td>
                   <td>Herman Room</td>
                 </tr>
@@ -171,139 +174,136 @@
             </table>
           </div>
           <div class="col-sm-4">
-            <h3>Saturday, Jan 27</h3>
-            <table class="table table-borderless">
+            <h3 class="schedule">Saturday, Jan 27</h3>
+            <table class="table table-borderless row">
                 <thead class="thead-light">
-                  <th class="col-md-2">Time</th>
-                  <th class="col-md-5">Event Name</th>
+                  <th class="col-md-3">Time</th>
+                  <th class="col-md-4">Event Name</th>
                   <th class="col-md-5">Location</th>
                 </thead>
                 <tbody>
                 <tr>
-                  <th>9:30am</th>
+                  <td>9:30am</td>
                   <td>Breakfast</td>
                   <td>Herman Room</td>
                 </tr>
                 <tr>
-                  <th>10:00am</th>
+                  <td>10:00am</td>
                   <td>HTML &amp; CSS</td>
                   <td>Social Room</td>
                 </tr>
                 <tr>
-                  <th>11:00am</th>
+                  <td>11:00am</td>
                   <td>Data Science in Python</td>
                   <td>Social Room</td>
                 </tr>
                 <tr>
-                  <th>12:00pm</th>
+                  <td>12:00pm</td>
                   <td>Lunch</td>
                   <td>Herman Room</td>
                 </tr>
                 <tr>
-                  <th>2:00pm</th>
+                  <td>2:00pm</td>
                   <td>Scavenger Hunt</td>
                   <td>Campus-wide</td>
                 </tr>
                 <tr>
-                  <th>3:00pm</th>
+                  <td>3:00pm</td>
                   <td>Meteor &amp; ReactJS Workshop</td>
                   <td>Social Room</td>
                 </tr>
                 <tr>
-                  <th>5:00pm</th>
+                  <td>5:00pm</td>
                   <td>Juwani Dancing</td>
                   <td>Social Room</td>
                 </tr>
                 <tr>
-                  <th>7:00pm</th>
+                  <td>7:00pm</td>
                   <td>Dinner</td>
                   <td>Herman Room</td>
                 </tr>
                 <tr>
-                  <th>8:00pm</th>
+                  <td>8:00pm</td>
                   <td>Cup Stacking</td>
                   <td>Social Room</td>
                 </tr>
                 <tr>
-                  <th>9:00pm</th>
+                  <td>9:00pm</td>
                   <td>Trivia HQ</td>
                   <td>Social Room</td>
                 </tr>
                 <tr>
-                  <th>9:00pm</th>
+                  <td>9:30pm</td>
                   <td>After Effects</td>
                   <td>Social Room</td>
                 </tr>
                 <tr>
-                  <th>10:00pm</th>
+                  <td>10:00pm</td>
                   <td>Juggling</td>
                   <td>Social Room</td>
                 </tr>
                 <tr>
-                  <th>12:00am</th>
+                  <td>12:00am</td>
                   <td>Midnight Snacks</td>
                   <td>Herman Room</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <!-- <div class="col-sm-1 hidden-xs"></div> -->
-
-          <!-- <div class="col-sm-1 hidden-xs"></div> -->
           <div class="col-sm-4">
-            <h3>Sunday, Jan 28</h3>
-            <table class="table table-borderless">
+            <h3 class="schedule">Sunday, Jan 28</h3>
+            <table class="table table-borderless row">
                 <thead class="thead-light">
-                  <th class="col-md-2">Time</th>
-                  <th class="col-md-5">Event Name</th>
+                  <th class="col-md-3">Time</th>
+                  <th class="col-md-4">Event Name</th>
                   <th class="col-md-5">Location</th>
                 </thead>
                 <tbody>
                 <tr>
-                  <th>9:00am</th>
+                  <td>9:00am</td>
                   <td>Breakfast</td>
                   <td>Herman Room</td>
                 </tr>
                 <tr>
-                  <th>9:00am</th>
+                  <td>9:00am</td>
                   <td>Project Submissions</td>
                   <td>Social Room</td>
                 </tr>
                 <tr>
-                  <th>10:00am</th>
+                  <td>10:00am</td>
                   <td>Judging</td>
                   <td>Great Room</td>
                 </tr>
                 <tr>
-                  <th>11:00am</th>
+                  <td>11:00am</td>
                   <td>Judges Convene</td>
                   <td>Social Room</td>
                 </tr>
                 <tr>
-                  <th>12:00pm</th>
+                  <td>12:00pm</td>
                   <td>Closing Ceremonies</td>
                   <td>McDonough Arena</td>
                 </tr>
                 <tr>
-                  <th>12:00pm</th>
+                  <td>12:00pm</td>
                   <td>Prizes</td>
                   <td>McDonough Arena</td>
                 </tr>
                 <tr>
-                  <th>1:00pm</th>
+                  <td>1:00pm</td>
                   <td>Go Home!</td>
                   <td>Uber / Bus</td>
                 </tr>
               </tbody>
             </table>
           </div>
-        </div>
-          <!-- <div class="col-sm-6 hidden-xs"></div> -->
       </div>
     </div>
 </section>
 
-<section>
+<!-- photos of past events  -->
+
+<!-- <section>
   <div class="container">
 
       <div class="row">
@@ -322,19 +322,32 @@
         </div>
       </div>
    </div>
-</section>
+<!-- </section> -->
 
-<section class="light">
+<section class="dark transportation">
   <div class="container">
-    <h2>Transportation</h2>
     <!-- <hr> -->
     <div class="row">
       <div class="col-sm-5">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d99323.498258451!2d-77.06089609389966!3d38.92719282448391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x89b7c6bd3e9aaaab%3A0xd48e8bdda5e4da9a!2sUniversity+of+MD%2C+College+Park%2C+MD!3m2!1d38.9869183!2d-76.9425543!4m5!1s0x89b7b6417bbbb425%3A0x3a402a14529e7046!2sGeorgetown+University+Southwest+Garage%2C+Canal+Road+Northwest%2C+Washington%2C+DC!3m2!1d38.9061199!2d-77.0760949!5e0!3m2!1sen!2sus!4v1516826147234" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <h2 class="text-center">Transportation</h2>
+        <hr>
+        <p>
+          Need to figure out how to get around? Check out this interactive Google Map with direct routes from different universities.
+        </p>
+        <p>
+          We want to bring together the best community of students from all over, so we're offering up to a $40 travel reimbursement to attend Hoya Hacks.
+        </p>
+        <p>
+          For those who carpool, we will reimburse up to $40 per individual. We will require receipts to be eligible for a travel reimbursement. Qualifying transportation methods include traveling by bus, metro, Uber, plane, and car.</p>
       </div>
       <div class="col-sm-7">
-
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1K7Nlt7fDYNZv72gT0PoIIlS4OyJKCDPA" width="640" height="480"></iframe>
+        </div>
       </div>
+
+
+
     </div>
 
   </div>
@@ -343,8 +356,9 @@
 <section>
   <div class="container">
     <h2>FAQ</h2>
+    <hr>
     <div class="row">
-      <div class="col-xs-12 col-md-9 col-md-offset-1">
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1">
           <h4>What is a hackathon?</h4>
           <p class="lead">Hoya Hacks is a 36-hour event at Georgetown University that brings together super smart students to build something cool. We provide the resources for you to succeed, no matter your skill level!</p>
           <h4>Who can attend?</h4>
@@ -370,27 +384,32 @@
   </div>
 </section>
 
-<section class="light">
-  <div class="container">
-    <h2>Sponsorships</h2>
-    <div class="col-xs-12 col-md-8 col-md-offset-2">
-          <div class="sponsors">
+<section class="dark">
+  <div class="container-fluid">
+    <h2>Our Sponsors</h2>
+    <hr>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="sponsors" style="flex: auto; text-align: center;">
             <img src="img/sponsors2018/dirtysouthdeli.png" class="img-fluid" alt="Responsive image">
             <img src="img/sponsors2018/google.png" class="img-fluid" alt="Responsive image">
             <img src="img/sponsors2018/ibm.png" class="img-fluid" alt="Responsive image">
             <img src="img/sponsors2018/mlh.png" class="img-fluid" alt="Responsive image">
-            <img src="img/sponsors2018/teksystems.png" class="img-fluid" alt="Responsive image">
-            <img src="img/sponsors2018/verizon.png" class="img-fluid" alt="Responsive image">
+            <img src="img/sponsors2018/teksystems.png" class="fix img-fluid" alt="Responsive image">
+            <img src="img/sponsors2018/verizon.png" class="fix img-fluid" alt="Responsive image">
             <img src="img/sponsors2018/uis.png" class="img-fluid" alt="Responsive image">
             <img src="img/sponsors2018/wipro.png" class="img-fluid" alt="Responsive image">
-            <img src="img/sponsors2018/narmitech.png" class="img-fluid" alt="Responsive image">
+            <img src="img/sponsors2018/narmitech.png" class="fix img-fluid" alt="Responsive image">
             <img src="img/sponsors2018/zoeskitchen.png" class="img-fluid" alt="Responsive image">
             <img src="img/sponsors2018/isl.png" class="img-fluid" alt="Responsive image">
-            <img style="width: auto;height: 80px;" src="img/sponsors2018/craignewmarkphilanthropies.png" class="img-fluid" alt="Responsive image">
+            <img src="img/sponsors2018/craignewmarkphilanthropies.png" class="fix2 img-fluid" alt="Responsive image">
           </div>
-          <center><hr class></center>
-          <h4 class="text-center">Interested in sponsoring Hoya Hacks? Click <a href="Hoya-Hacks-2018-Sponsorship-Deck.pdf">here</a> to check out our sponsorship packages! </h4>
         </div>
+        <div class="col-md-1"></div>
+      </div>
+
+          <h4 class="text-center">Interested in sponsoring Hoya Hacks? <br><br>Click <a href="Hoya-Hacks-2018-Sponsorship-Deck.pdf">here</a> to check out our sponsorship packages! </h4>
   </div>
 
 </section>
@@ -400,6 +419,7 @@
       <div class="row">
         <div class="col-xs-12 col-md-12">
             <h2 class="text-center fix">Join Our Email List</h2>
+            <hr>
           <div class="card-container">
             <div class="card card-shadow col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 reveal" data-sr-id="2" style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; ">
                 <form action="http://hoyahacks.us11.list-manage.com/subscribe/post?u=f55885e2bcd3f02b15c63562a&amp;id=3eda481e69" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
@@ -424,7 +444,7 @@
 <footer>
   <div class="bar">
      <div class="container">
-          <h2 class="logo"><a href="#"> LOGO </a></h2>
+          <h2 class="logo"><a href="#"><img class="brand-logo" src="img/brand_logo.png"/> </a></h2>
           <div class="social-icons">
               <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
               <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -455,10 +475,13 @@
     <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2018/events?utm_source=na-2018&utm_medium=TrustBadge&utm_campaign=na-2018&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
   </div>
 
-  <div class="visible-xs">
+  <!-- <div class="visible-xs">
     <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;left:25px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2018/events?utm_source=na-2018&utm_medium=TrustBadge&utm_campaign=na-2018&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
-  </div>
-
+  </div> -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
   </body>
 
 </html>

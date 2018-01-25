@@ -1,18 +1,18 @@
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Martel', Times New Roman, Times, serif;
-  font-weight: 900;
-}
-h4 {
   font-family: 'Martel Sans';
+  font-weight: 900;
+
 }
 
 h1 {
   font-size: 3.69em;
+  text-align: center;
 }
 
 h2 {
-  font-size: 2.25em;
+  font-size: 2.75em;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 h3 {
@@ -29,10 +29,6 @@ h3 {
   margin-top: -25px;
 }
 
-hr.fix {
-  margin-left: auto;
-}
-
 p.fix {
   margin-left: 40px;
 }
@@ -41,38 +37,45 @@ h2.fix{
   margin-left: 0;
 }
 
-.light hr {
-  margin-top: 20px;
-  width: 50px;
+hr {
+  margin-top: 10px;
+  width: 75px;
   border-top: solid 5px #5190A5 !important;
 }
 
 section {
-  padding: 25px 0;
+  padding: 50px 0;
+}
+.dark {
+  color: #fff;
+  background-color: #33373e;
+}
+.dark h2 {
+  color: #fff;
 }
 
+.dark h3 {
+  color: #fff;
+}
 .light {
   /* padding: 10px 0; */
   background-color: #add8e6;
   /*border: solid 1px MidnightBlue;*/
 }
-
-
-/* SCHEDULE CSS */
-.schedule {
-  margin-left: 5%;
-  margin-right: 5%;
-  padding: 20px 0;
+.light h2 {
+  color: #021F28;
 }
+/* SCHEDULE CSS */
 
 .light h1,h2,h3,h4,h5,h6 {
   color: #021F28;
 }
-.schedule h3 {
-  text-align: center;
+
+h3.schedule {
+  text-align: left;
 }
 
-.schedule h3::after {
+h3.schedule::after {
   content: "....";
   margin-top: -5px;
   font-size: 1.25em;
@@ -80,11 +83,6 @@ section {
   display: block;
 
 }
-.schedule hr {
-  width: 35px;
-  border-top: solid 5px SeaShell !important;
-}
-
 .table-striped>tbody>tr:nth-child(even)>td,
 .table-striped>tbody>tr:nth-child(even)>th {
    /* background-color: SeaShell; // Choose your own color here */
@@ -108,9 +106,24 @@ section {
 .navbar-brand {
   text-shadow: none;
 }
+
+.embed-responsive iframe {
+  /* margin-top: 20px; */
+}
+
+.light p {
+  font-size: 1.35em;
+  /* font-weight: bold; */
+}
+
+.navbar-brand img {
+  margin-top: -5px;
+  width: 150px;
+  height: auto;
+}
+
 .navbar-right {
   margin-right: 10px;
-
 }
 
 .hvrcenter {
@@ -172,6 +185,9 @@ section {
 
 .shift-left {
   margin-left: 40px;
+}
+
+.light {
 
 }
 
@@ -245,6 +261,29 @@ footer .twitter:hover {
     footer .info{
         text-align: center;
     }
+    .sponsors img {
+      height: 130px;
+      width: auto;
+    }
+    img.fix {
+      width: 100%;
+      height: auto;
+    }
+    .sponsors img.fix2 {
+      width: 100%;
+      height: auto;
+    }
+
+
+}
+@media screen and (min-width: 768px) {
+  .sponsors img.fix2 {
+    width: auto;
+    height: 100px;
+  }
+  .transportation p {
+    font-size: 1.2em;
+  }
 }
 
 img[data-action="zoom"] {
@@ -396,4 +435,8 @@ img[data-action="zoom"] {
     .header-nightsky .hero h1{
         font-size: 42px;
     }
+}
+.brand-logo {
+  width: 150px;
+  height: auto;
 }
